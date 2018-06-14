@@ -1235,3 +1235,9 @@ table a, #comments a {
     font-size: 1.6rem;
   }
 }
+
+/* Links ------------------*/
+
+a:hover{
+	transition: all .3s ease;
+}
