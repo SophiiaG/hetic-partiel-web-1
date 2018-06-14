@@ -46,7 +46,20 @@
   font-size: 22px;
   text-transform: uppercase;
 }
+.fixed {
+  position: fixed;
+  top: 0;
+  transition: all 300ms ease-in-out;
+}
+/* Lorsqu'on scroll up la nav apparait*/
+.small {
+  height: 77px;
+}
 
+/* Lorsqu'on scroll down la nav se cache de -50px*/
+.up {
+  transform: translateY(-50px);
+}
 /* Page Intro --------------------------------------------------------------------------------------------------------------- */
 
 #pageintro {
