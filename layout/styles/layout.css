@@ -8,6 +8,10 @@
   font-size: .8rem;
   text-transform: uppercase;
 }
+.bgded {
+	background-image:url('../../images/demo/backgrounds/picture1.jpg') no-repeat;
+	background-size: cover;
+}
 
 #topbar * {
   margin: 0;
