@@ -323,6 +323,7 @@
 
 #footer {
   padding: 80px 0;
+	position: relative;
 }
 
 #footer .heading {
@@ -373,6 +374,14 @@
   width: 30px;
   font-size: 16px;
   text-align: center;
+}
+
+.back_up{
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 40px;
 }
 
 /* Copyright --------------------------------------------------------------------------------------------------------------- */
@@ -1170,7 +1179,8 @@ table a, #comments a {
   .sectiontitle {
     max-width: none;
   }
-  .services+footer {
+  .services+
+	 {
     text-align: left;
   }
   .cta> :first-child {
